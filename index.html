@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main">
+    <h1>Fill The Given Form</h1>
+    <p>Details should be correct</p>
+    <form>
+      <!-- name section -->
+      <label for="fname">First name</label>
+      <input class="style" id="fname" type="text" placeholder="Enter your first name" required><br>
+      <label for="lname">Last name</label>
+      <input class="style" id="lname" type="text" placeholder="Enter your last name" required><br>
+      <!-- gender section -->
+      <label for="gender">Gender</label><br>
+      <input id="gender" type="radio" name="gender">Male<br>
+      <input id="gender" type="radio" name="gender">Female<br>
+      <!-- birth date -->
+      <label for="birth">Date of birth</label>
+      <input id="birth" type="date" required><br>
+      <!-- contact details -->
+      <label for="phone">Mobile number</label>
+      <input id="phone" type="tel" maxlength="10" required><br>
+      <!-- residence -->
+      <label for="city">City</label>
+      <select id="city">
+        <option>Select</option>
+        <option>Greater Noida</option>
+        <option>Noida</option>
+        <option>Delhi</option>
+        <option>Faridabad</option>
+        <option>Gurgaon</option>
+      </select><br>
+      <!-- email section -->
+      <label for="email">Email</label>
+      <input class="style" id="email" type="email" placeholder="Enet your Email" required><br>
+      <!-- enter your password -->
+      <label for="pass">Password</label>
+      <input class="style" id="pass" type="password" placeholder="Enter your password" required><br>
+      <!-- duration of the reduired course -->
+      <label for="course">Time of Course</label><br>
+      <input id="course" type="checkbox" name="course1">3 months<br>
+      <input id="course" type="checkbox" name="course2">6 months<br>
+      <input id="course" type="checkbox" name="course3">9 months<br>
+      <input id="course" type="checkbox" name="course4">1 year<br>
+      <!-- something about you -->
+      <label for="intro">Write about yourself</label>
+      <textarea id="intro" placeholder="Text" rows="1" cols="30"></textarea><br>
+      <!-- which is your favourite language -->
+      <label for="flanguage">What is your favourite language?</label>
+      <select id="flanguage">
+        <option>select</option>
+        <option>Java</option>
+        <option>Python</option>
+        <option>C programming language</option>
+        <option>C++</option>
+      </select><br>
+      <!-- in which year you are -->
+      <label for="year">Which year are you in?(In university)</label>
+      <input id="year" type="number" max="5" min="1"><br>
+      <!-- submit button -->
+      <input class="submit" type="Submit" valve="submit">
+    </form>
+  </div>
+  </body>
+</html>
